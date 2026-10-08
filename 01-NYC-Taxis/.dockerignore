@@ -1,0 +1,13 @@
+notebooks/
+.venv
+dags
+data
+database
+dist
+logs
+.env
+.env.sample
+.envrc
+test_output.txt
+Makefile
+.gitignore

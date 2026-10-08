@@ -1,0 +1,25 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.8, pytest-8.3.4, pluggy-1.5.0 -- /home/wasapi/code/razan-12778/data-engineering-challenges/04-Data-at-Scale/02-Spark-Advanced/01-NYC-Taxis/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/wasapi/code/razan-12778/data-engineering-challenges/04-Data-at-Scale/02-Spark-Advanced/01-NYC-Taxis
+configfile: pyproject.toml
+plugins: anyio-4.8.0
+collecting ... collected 15 items
+
+tests/test_taxi_spark/test_functions/test_calculations.py::test_calculate_trip_duration PASSED [  6%]
+tests/test_taxi_spark/test_functions/test_calculations.py::test_calculate_haversine_distance PASSED [ 13%]
+tests/test_taxi_spark/test_functions/test_cleaning.py::test_remove_duplicates PASSED [ 20%]
+tests/test_taxi_spark/test_functions/test_cleaning.py::test_handle_nulls PASSED [ 26%]
+tests/test_taxi_spark/test_functions/test_cleaning.py::test_type_casting PASSED [ 33%]
+tests/test_taxi_spark/test_functions/test_cleaning.py::test_normalize_strings PASSED [ 40%]
+tests/test_taxi_spark/test_functions/test_cleaning.py::test_format_dates PASSED [ 46%]
+tests/test_taxi_spark/test_functions/test_cleaning.py::test_filter_coordinates PASSED [ 53%]
+tests/test_taxi_spark/test_functions/test_cleaning.py::test_rename_columns PASSED [ 60%]
+tests/test_taxi_spark/test_functions/test_processing.py::test_add_time_bins PASSED [ 66%]
+tests/test_taxi_spark/test_functions/test_processing.py::test_add_pickup_date PASSED [ 73%]
+tests/test_taxi_spark/test_functions/test_processing.py::test_drop_coordinates PASSED [ 80%]
+tests/test_taxi_spark/test_functions/test_processing.py::test_aggregate_metrics PASSED [ 86%]
+tests/test_taxi_spark/test_functions/test_processing.py::test_sort_by_date_and_time PASSED [ 93%]
+tests/test_taxi_spark/test_functions/test_schema.py::test_enforce_schema PASSED [100%]
+
+============================= 15 passed in 53.04s ==============================
